@@ -17,4 +17,4 @@ https://dokploy.com/ (gestor online de projetos)
 
 https://dribbble.com/ (Plataforma para Designers)
 
-https://www.maxai.co/ (extensão do chrome, mto util quando deseja fazer referencia ao conteudo de uma pagina)
+https://www.maxai.co/ (extensão do chrome, mto util quando deseja fazer referencia ao conteudo de uma pagina, funciona perfeitamente no gmail)
