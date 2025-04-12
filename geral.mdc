@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Se precisar de informações sobre a estrutura do banco de dados, use o MCP "supabase eco-circular" antes de responder.
+Jamais altere o layout sem minha solicitação.
+Nunca mude uma regra de negócio sem minha solicitação.
+Execute sempre objetivamente aquilo que eu solicitar.
+Nunca use dados ficticios no desenvolvimento, solicite quais dados do banco de dados deverá utilizar e/ou onde estão, não presuponha.
+
+devido ao sistema de null safety do Dart, quando uma variável response foi declarada como não anulável (non-nullable), nunca poderá conter o valor null. Como resultado, a verificação response == null é desnecessária e sempre retornará false, não faça essa verificação. 
+
+Para evitar perda de precisão, é recomendado substituir o uso de withOpacity pelo método withValues, que permite especificar diretamente o valor de opacidade como um número de ponto flutuante, sem conversões intermediárias. Não use withOpacity, use withValues.
+
+'MaterialStateProperty' is deprecated and shouldn't be used. Use WidgetStateProperty instead.
