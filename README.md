@@ -4,10 +4,17 @@ contem meu arquivos de MCP e Rules, alem disso tambem utilizo os DOCs abaixos
 
 
 links uteis
+
 https://smithery.ai/ (mcp)
+
 https://mcp.so/ (mcp)
+
 https://cursor.directory/ (rules e mcp)
+
 https://copycoder.ai/ (cria promppts de um site pronto)
+
 https://dokploy.com/ (gestor online de projetos)
+
 https://dribbble.com/ (Plataforma para Designers)
+
 https://www.maxai.co/ (extensão do chrome, mto util quando deseja fazer referencia ao conteudo de uma pagina)
