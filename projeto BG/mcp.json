@@ -1,0 +1,46 @@
+{
+    "mcpServers": {
+        "supabase bg produção": {
+            "command": "cmd /c npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-postgres",
+                "postgresql://postgres.zyfsylsrsxvnsatpmyzj:ucGUeAxESgbU6dff@aws-0-sa-east-1.pooler.supabase.com:6543/postgres"
+            ]
+        },
+        "supabase bg desenvolvimento": {
+            "command": "cmd /c npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-postgres",
+                "postgresql://postgres.zbsfbyodgmcojogrvzdv:AQB6HmiPkBFlkA2k@aws-0-sa-east-1.pooler.supabase.com:6543/postgres"
+            ]
+        },
+        "puppeteer": {
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@smithery-ai/puppeteer",
+                "--key",
+                "a7544b89-da07-4376-8ab4-063806bf990e"
+            ]
+        },
+        "playwright-mcp-server": {
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@executeautomation/playwright-mcp-server",
+                "--key",
+                "a7544b89-da07-4376-8ab4-063806bf990e"
+            ]
+        }
+    }
+}

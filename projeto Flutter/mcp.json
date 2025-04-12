@@ -1,0 +1,39 @@
+{
+    "mcpServers": {
+        "supabase eco-circular": {
+            "command": "cmd /c npx",
+            "args": [
+                "-y",
+                "@supabase/mcp-server-supabase@latest",
+                "--access-token",
+                "sbp_b607fd61ebbbe15aea4b84e0e48f8e5f4ba754cf"
+            ]
+        },
+        "puppeteer": {
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@smithery-ai/puppeteer",
+                "--key",
+                "a7544b89-da07-4376-8ab4-063806bf990e"
+            ]
+        },
+        "playwright-mcp-server": {
+            "command": "cmd",
+            "args": [
+                "/c",
+                "npx",
+                "-y",
+                "@smithery/cli@latest",
+                "run",
+                "@executeautomation/playwright-mcp-server",
+                "--key",
+                "a7544b89-da07-4376-8ab4-063806bf990e"
+            ]
+        }
+    }
+}

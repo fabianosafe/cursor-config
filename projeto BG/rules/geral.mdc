@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Se precisar de informações sobre a estrutura do banco de dados, use o MCP "Supabase bg desenvolvimento" antes de responder.
+O MCP do supabase permite apenas leitura.
+o projeto esta em TypeScript no modo estrito ("strict": true).
